@@ -8,6 +8,9 @@ TagManager:
   - Wood
   - Dig
   - Water
+  - arvore
+  - TreeTop
+  - TreeBottom
   layers:
   - Default
   - TransparentFX

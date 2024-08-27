@@ -19,12 +19,13 @@ MonoBehaviour:
   - actorName: 
     profile: {fileID: 0}
     sentence:
-      portuguese: "Ol\xE1, Mundo!"
+      portuguese: "Nunca vi voc\xEA por aqui, bom n\xE3o importa, tem uma vila aqui
+        por perto tente achar o caminho..."
       english: Hello, World!
       spanish: Hola, Mundo!
   - actorName: 
     profile: {fileID: 0}
     sentence:
-      portuguese: "Ol\xE1, gente!"
+      portuguese: Ah, cuidado com os ossudos!
       english: Hello, guys!
       spanish: Hola, chicos!
