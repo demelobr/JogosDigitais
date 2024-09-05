@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: 641d358884c67f54985696c1502918cf
   - enabled: 1
-    path: "Assets/Scenes/Introdu\xE7\xE3o.unity"
+    path: Assets/Scenes/Fase 1.unity
     guid: 7f3c5161fb79d68428b2119fdf30a810
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOverScene.unity
     guid: fd250a605855af045b681d229fb23bb9
+  - enabled: 1
+    path: Assets/Scenes/Fase 3.unity
+    guid: 11b62ead419e1614299857af6dde972c
+  - enabled: 1
+    path: Assets/Scenes/Fase 4.unity
+    guid: 6ecb8b155cbe7fb4c9ceb25ba1e12c9d
+  - enabled: 1
+    path: Assets/Scenes/Fase 5.unity
+    guid: 65310d697b7089f4293922345c6f423e
   m_configObjects: {}

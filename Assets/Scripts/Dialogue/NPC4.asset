@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c112f059b03da424584991dbe2437820, type: 3}
+  m_Name: NPC4
+  m_EditorClassIdentifier: 
+  actor: {fileID: 5214185788776511097, guid: f7a0b3b2f8e668144910310838cdbd19, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Com licen\xE7a\u2026 disseram que eu encontraria uma vila por
+        aqui. \xC9 este o lugar?"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 012a643139ec6924abb3e674dfa5a22b, type: 3}
+    sentence:
+      portuguese: "Sim, forasteiro, voc\xEA a encontrou. Mas... quem \xE9 voc\xEA?
+        O que faz em uma floresta como essa?"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Ah, desculpe, esqueci de me apresentar. Meu nome \xE9 Leandro.
+        Eu... eu me perdi na floresta. Na verdade, n\xE3o me lembro de como cheguei
+        aqui. Tudo est\xE1 confuso"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 012a643139ec6924abb3e674dfa5a22b, type: 3}
+    sentence:
+      portuguese: "Esqueceu como chegou? Isso n\xE3o \xE9 t\xE3o incomum por aqui...
+        A floresta tem o h\xE1bito de mexer com a cabe\xE7a dos desavisados. Meu
+        nome \xE9 Eldric, vice-guardi\xE3o desta vila."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Agrade\xE7o pela acolhida, mas... \"sorte\" n\xE3o \xE9 a palavra
+        que usaria. No caminho at\xE9 aqui, fui perseguido por... esqueletos. Eles
+        quase me mataram. Achei que estivesse delirando, mas..."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 012a643139ec6924abb3e674dfa5a22b, type: 3}
+    sentence:
+      portuguese: "N\xE3o, n\xE3o foi del\xEDrio. Esses esqueletos s\xE3o apenas
+        um dos muitos terrores que habitam a floresta. Nos \xFAltimos tempos, as
+        coisas est\xE3o piorando."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Ent\xE3o, voc\xEAs sabem o que est\xE1 acontecendo?"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 012a643139ec6924abb3e674dfa5a22b, type: 3}
+    sentence:
+      portuguese: "Sabemos o suficiente. E quanto mais souber, mais perigoso se torna.
+        Confie em mim quando digo que certas verdades est\xE3o melhor enterradas..."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Parece que estou sem op\xE7\xF5es, ent\xE3o."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 012a643139ec6924abb3e674dfa5a22b, type: 3}
+    sentence:
+      portuguese: "Aproveite e conhe\xE7a os outros. N\xE3o \xE9 comum recebermos
+        visitantes. V\xE1 falar com o Brom, nosso ferreiro. Ele pode ser \xFAtil.
+        Sua forja fica logo abaixo."
+      english: 
+      spanish: 

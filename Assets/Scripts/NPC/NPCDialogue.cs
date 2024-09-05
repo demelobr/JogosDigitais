@@ -10,8 +10,8 @@ public class NPCDialogue : MonoBehaviour
     public DialogueSettings dialogue;
 
     bool playerHit;
-
     private List<string> sentences = new List<string>();
+    private List<Sprite> sprites = new List<Sprite>(); // Adiciona a lista de sprites
 
     private void Start()
     {
@@ -22,11 +22,14 @@ public class NPCDialogue : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerHit)
         {
-            DialogueControl.instance.Speech(sentences.ToArray());
+            DialogueControl.instance.Speech(
+                sentences.ToArray(),
+                sprites.ToArray(), // Passa a lista de sprites
+                dialogue.speakerSprite // Passa o sprite padrão
+            );
         }
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         ShowDialogue();
@@ -48,13 +51,14 @@ public class NPCDialogue : MonoBehaviour
                     sentences.Add(dialogue.dialogues[i].sentence.spanish);
                     break;
             }
+            sprites.Add(dialogue.dialogues[i].profile); // Adiciona o sprite correspondente
         }
     }
 
     void ShowDialogue()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, dialogueRange, playerLayer);
-        
+
         if (hit != null)
         {
             playerHit = true;

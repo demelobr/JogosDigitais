@@ -27,7 +27,9 @@ public class DialogueControl : MonoBehaviour
     // Variáveis de controle
     public bool isShowing; // Se a janela está visível
     private int index; // Índice para saber a quantidade de falas
-    private string[] sentences; // Array de senteças
+    private string[] sentences; // Array de sentenças
+    private Sprite[] currentNpcSprites; // Array de sprites para o NPC atual
+    private Sprite defaultSprite; // Sprite padrão
 
     public static DialogueControl instance;
 
@@ -37,21 +39,42 @@ public class DialogueControl : MonoBehaviour
         instance = this;
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void Speech(string[] txt, Sprite[] npcSprites, Sprite defaultSprite)
     {
-        
+        if (!isShowing)
+        {
+            dialogueObj.SetActive(true);
+            sentences = txt;
+            this.defaultSprite = defaultSprite;
+            currentNpcSprites = npcSprites;
+
+            // Configura o sprite inicial
+            if (npcSprites != null && npcSprites.Length > 0 && npcSprites[0] != null)
+            {
+                profileSprite.sprite = npcSprites[0];
+            }
+            else
+            {
+                profileSprite.sprite = defaultSprite; // Usa o sprite padrão
+            }
+
+            StartCoroutine(TypeSentence());
+            isShowing = true;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    // Apresentar a frase/fala letra por letra
     IEnumerator TypeSentence()
     {
+        // Troca a imagem para cada frase
+        if (currentNpcSprites != null && currentNpcSprites.Length > index && currentNpcSprites[index] != null)
+        {
+            profileSprite.sprite = currentNpcSprites[index];
+        }
+        else
+        {
+            profileSprite.sprite = defaultSprite;
+        }
+
         foreach (char letter in sentences[index].ToCharArray())
         {
             speechText.text += letter;
@@ -59,7 +82,6 @@ public class DialogueControl : MonoBehaviour
         }
     }
 
-    // Pular para próxima frase/fala
     public void NextSentence()
     {
         if (speechText.text == sentences[index])
@@ -78,18 +100,6 @@ public class DialogueControl : MonoBehaviour
                 sentences = null;
                 isShowing = false;
             }
-        }
-    }
-
-    // Chamar a fala do npc
-    public void Speech(string[] txt)
-    {
-        if (!isShowing)
-        {
-            dialogueObj.SetActive(true);
-            sentences = txt;
-            StartCoroutine(TypeSentence());
-            isShowing = true;
         }
     }
 }

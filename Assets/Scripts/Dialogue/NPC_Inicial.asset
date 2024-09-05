@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c112f059b03da424584991dbe2437820, type: 3}
+  m_Name: NPC_Inicial
+  m_EditorClassIdentifier: 
+  actor: {fileID: 0}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: 
+    profile: {fileID: 21300000, guid: 47d58c209b38e1d41925b93c532145ac, type: 3}
+    sentence:
+      portuguese: Nunca te vi por aqui.
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 47d58c209b38e1d41925b93c532145ac, type: 3}
+    sentence:
+      portuguese: "Bom, n\xE3o importa, se quiser ficar bem, ache o vilareijo o mais
+        r\xE1pido poss\xEDvel."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 47d58c209b38e1d41925b93c532145ac, type: 3}
+    sentence:
+      portuguese: Ah, e cuidado com os "Ossudos"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: e5ee1afbf46010e4a849e359195e314f, type: 3}
+    sentence:
+      portuguese: Corra com shift. Ande com W,S,D,A ou Setinha
+      english: 
+      spanish: 

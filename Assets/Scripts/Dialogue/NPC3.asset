@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c112f059b03da424584991dbe2437820, type: 3}
+  m_Name: NPC3
+  m_EditorClassIdentifier: 
+  actor: {fileID: 0}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Ol\xE1... voc\xEA deve ser o Brom, o ferreiro, certo? Eldric me
+        sugeriu que viesse at\xE9 voc\xEA. Acabei me perdendo na floresta"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 861ced9cb4f5abe43a3f1d8d420db4fc, type: 3}
+    sentence:
+      portuguese: "Hah... se a floresta n\xE3o te engoliu ainda, ent\xE3o voc\xEA
+        tem mais sorte do que imagina. Mas essa sorte n\xE3o dura muito."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "O que voc\xEA quer dizer com isso? O que est\xE1 acontecendo por
+        aqui?  "
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 861ced9cb4f5abe43a3f1d8d420db4fc, type: 3}
+    sentence:
+      portuguese: "H\xE1 coisas nessa floresta que n\xE3o deviam mais existir."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Voc\xEA est\xE1 falando sobre as caveiras? Fui atacado por elas
+        no caminho pra c\xE1."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 861ced9cb4f5abe43a3f1d8d420db4fc, type: 3}
+    sentence:
+      portuguese: "Caveiras, esp\xEDritos, sombras... A floresta tem muitas formas
+        de ca\xE7ar."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 861ced9cb4f5abe43a3f1d8d420db4fc, type: 3}
+    sentence:
+      portuguese: "H\xE1 um homem... Dante. Ele \xE9 nosso curandeiro, e conhece
+        as velhas hist\xF3rias. Mas n\xE3o confie em tudo o que ouve."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 861ced9cb4f5abe43a3f1d8d420db4fc, type: 3}
+    sentence:
+      portuguese: "A essa hora deve estar em algum lugar bisbilhotando as \xE1rvores."
+      english: 
+      spanish: 
