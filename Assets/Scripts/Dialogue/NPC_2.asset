@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c112f059b03da424584991dbe2437820, type: 3}
+  m_Name: NPC_2
+  m_EditorClassIdentifier: 
+  actor: {fileID: 9184269216811860996, guid: 513799ff77f23304eb59afce68904d65, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "Ah ent\xE3o voc\xEA quer ir para a vila? Eu sei o caminho, mas
+        do jeito que voc\xEA est\xE1 voc\xEA n\xE3o vai poder entrar, porque eles
+        s\xF3 aceitam quem \xE9 util! "
+      english: Hello
+      spanish: Hola
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "Vou lhe ensinar b\xE1sico para conseguir colaborar por l\xE1!"
+      english: Hello
+      spanish: Hola
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "Primeiro voc\xEA precisa aprender a se defender!"
+      english: Hello
+      spanish: Hola
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "Clicando com o bot\xE3o direito do mouse voc\xEA pode atacar,
+        pegue esse machado e derrote 10 ossudos! Se voc\xEA estiver cercado aperte
+        SHIFT para correr deles."
+      english: Hello
+      spanish: Hola
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: Ah aperte 1 para ter acesso ao machado.
+      english: Hello
+      spanish: Hola

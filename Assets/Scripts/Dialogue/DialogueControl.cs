@@ -20,6 +20,9 @@ public class DialogueControl : MonoBehaviour
     public Image profileSprite; // Sprite do perfil
     public Text speechText; // Texto da fala
     public Text actorNameText; // Nome do npc
+    public GameObject tools; // Janela de ferramentas
+    public GameObject questObj; // Janela da quest
+    public Text textQuest; // Texto da quest
 
     [Header("Settings")]
     public float typingSpeed; // Velocidade da fala
@@ -77,6 +80,32 @@ public class DialogueControl : MonoBehaviour
                 dialogueObj.SetActive(false);
                 sentences = null;
                 isShowing = false;
+            }
+        }
+    }
+
+    public void NextSentenceTutorial()
+    {
+        if (speechText.text == sentences[index])
+        {
+            if (index < sentences.Length - 1)
+            {
+                index++;
+                speechText.text = "";
+                StartCoroutine(TypeSentence());
+            }
+            else
+            {
+                speechText.text = "";
+                index = 0;
+                dialogueObj.SetActive(false);
+                sentences = null;
+                isShowing = false;
+            }
+            if (index == 4) {
+                Debug.Log(index);
+                tools.SetActive(true);
+                questObj.SetActive(true);
             }
         }
     }

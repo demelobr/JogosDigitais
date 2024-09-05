@@ -50,6 +50,10 @@ public class AnimationControl : MonoBehaviour
             skeleton.isDead = true;
             anim.SetTrigger("death");
             Destroy(skeleton.gameObject, 1.5f);
+
+            // Incrementa o contador de ossudos derrotados
+            GameManager.instance.IncrementarOssudosDerrotados();
+            
             GameObject instance =  Instantiate(playerAnim.skeletonPrefab, transform.position + new Vector3(Random.Range(-10f, 10f), Random.Range(-10f, 10f), 0f), transform.rotation);
             instance.GetComponent<Skeleton>().totalHealth = Random.Range(3, 6 + 1);
         }
