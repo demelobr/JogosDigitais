@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c112f059b03da424584991dbe2437820, type: 3}
+  m_Name: NPCteste
+  m_EditorClassIdentifier: 
+  actor: {fileID: 7559274763845405316, guid: 6be104a2f8c062046bc069b081aa349e, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Com licen\xE7a, voc\xEA \xE9 o curandeiro? Hector me disse que
+        talvez pudesse ajudar. "
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
+    sentence:
+      portuguese: "Ah, ent\xE3o voc\xEA \xE9 o forasteiro de que ouvi falar. N\xE3o
+        deveria estar aqui, mas j\xE1 que est\xE1... o que procura?"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: Como sabe sobre mim se nunca estive por aqui?
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
+    sentence:
+      portuguese: "Eu costumo andar bastante por a\xED, tenho fontes confi\xE1veis."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Bom, que seja\u2026 quero saber o que est\xE1 acontecendo. A floresta,
+        essa vila... algo n\xE3o est\xE1 certo."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
+    sentence:
+      portuguese: "A floresta est\xE1 viva. Ela respira, pensa... e ela \xE9 cruel.
+        N\xE3o foi sempre assim, mas algo foi despertado, algo antigo. E agora, estamos
+        presos aqui, todos n\xF3s."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Presos? Mas h\xE1 uma sa\xEDda, certo?"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
+    sentence:
+      portuguese: "E voc\xEA se arriscaria em sair? Estou certo de que isso \xE9
+        uma maldi\xE7\xE3o, sempre morei por aqui mas nunca vi nada igual."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
+    sentence:
+      portuguese: "Dizem que se voc\xEA beber da \xE1gua errada vira um esqueleto,
+        ou se comer do fruto errado vira um duende."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
+    sentence:
+      portuguese: alguns disseram que viram uma medusa congelar um cachorro ao olhar
+        no fundo dos olhos dela.
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "Eu n\xE3o posso ficar aqui por muito tempo, quero voltar para
+        casa, preciso fazer algo."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
+    sentence:
+      portuguese: "Boa sorte amigo, se estiver sentindo sintomas estranhos venha
+        at\xE9 mim, adoraria ver em primeira m\xE3o algu\xE9m se tornando uma caveira."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: ....
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
+    sentence:
+      portuguese: "T\xF4 brincando, tente achar a guardi\xE3 (l\xEDder) da vila,
+        talvez ela possa te ajudar, dizem que ela j\xE1 foi vidente em outras vidas."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: Obrigado.
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
+    sentence:
+      portuguese: "Ah, tome cuidado com o Varrick, nosso lenhador, ele n\xE3o \xE9
+        muito amig\xE1vel, hehe"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 60b55b87fe758e44487fc6e2f80c51fc, type: 3}
+    sentence:
+      portuguese: "ok\u2026"
+      english: 
+      spanish: 
