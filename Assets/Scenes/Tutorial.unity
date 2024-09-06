@@ -1558,7 +1558,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1921212229}
-        m_TargetAssemblyTypeName: DialogueControl, Assembly-CSharp
+        m_TargetAssemblyTypeName: DialogueControlTutorial, Assembly-CSharp
         m_MethodName: NextSentenceTutorial
         m_Mode: 1
         m_Arguments:
@@ -2531,6 +2531,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &682059438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9184269216811860996, guid: 513799ff77f23304eb59afce68904d65, type: 3}
+  m_PrefabInstance: {fileID: 9184269217258575450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &682059439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682059438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225a991ee1db5ed44b8b173348ae2cf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueRange: 0
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  dialogue: {fileID: 0}
 --- !u!1 &706715137
 GameObject:
   m_ObjectHideFlags: 0
@@ -58264,7 +58286,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1921212228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a23c5a67b70cfd4f96abf79913a6d14, type: 3}
+  m_Script: {fileID: 11500000, guid: c3cc7a4c79e2b8044b0f612fc2465889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lang: 0
