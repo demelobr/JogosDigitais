@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public static Player instance;
+
     [Header("Stats")]
     [SerializeField] private float speed;
     [SerializeField] private float runSpeed;
@@ -69,6 +71,8 @@ public class Player : MonoBehaviour
         get { return _isWatering; }
         set { _isWatering = value; }
     }
+
+    
 
     private void Start()
     {

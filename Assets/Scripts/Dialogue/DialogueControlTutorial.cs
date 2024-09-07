@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueControlTutorial : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class DialogueControlTutorial : MonoBehaviour
     public GameObject tools; // Janela de ferramentas
     public GameObject questObj; // Janela da quest
     public Text textQuest; // Texto da quest
+    public GameObject collect;
 
     [Header("Settings")]
     public float typingSpeed; // Velocidade da fala
@@ -102,10 +104,25 @@ public class DialogueControlTutorial : MonoBehaviour
                 sentences = null;
                 isShowing = false;
             }
-            if (index == 4) {
-                Debug.Log(index);
+            if (index == 4 && GameManager.instance.ossudosDerrotados < 1) 
+            {
                 tools.SetActive(true);
                 questObj.SetActive(true);
+            }
+
+            if (index == 1 && GameManager.instance.ossudosDerrotados >= 10) 
+            {
+                questObj.SetActive(false);
+            }
+
+            if (index == 2 && GameManager.instance.ossudosDerrotados >= 1) 
+            {
+                collect.SetActive(true);
+            }
+
+            if (index == 0 && PlayerItens.instance.totalWood >= 10)
+            {
+                SceneManager.LoadScene("Fase 3");
             }
         }
     }
