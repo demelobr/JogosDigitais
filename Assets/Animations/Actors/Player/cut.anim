@@ -157,9 +157,9 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.5
-    functionName: OnAttack
+    functionName: PlaySFX
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 8300000, guid: 0202a071652017944b5a6a2216126a05, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -167,6 +167,13 @@ AnimationClip:
     functionName: PlaySFX
     data: 
     objectReferenceParameter: {fileID: 8300000, guid: 0202a071652017944b5a6a2216126a05, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.8333333
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
