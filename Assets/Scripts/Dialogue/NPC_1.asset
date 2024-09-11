@@ -13,19 +13,51 @@ MonoBehaviour:
   m_Name: NPC_1
   m_EditorClassIdentifier: 
   actor: {fileID: 3781468310954413870, guid: 463601e62116c2745b2188b5f4359457, type: 3}
-  speakerSprite: {fileID: 21300000, guid: 656c1edbbb000324084fc41b5563b1eb, type: 3}
+  speakerSprite: {fileID: 21300000, guid: 47d58c209b38e1d41925b93c532145ac, type: 3}
   sentence: 
   dialogues:
-  - actorName: 
-    profile: {fileID: 21300000, guid: db42cfad5db5f6748830147ee5762a01, type: 3}
+  - actorName: "Jo\xE3o"
+    profile: {fileID: 21300000, guid: 861ced9cb4f5abe43a3f1d8d420db4fc, type: 3}
     sentence:
-      portuguese: "Nunca vi voc\xEA por aqui, bom n\xE3o importa, tem uma vila aqui
-        por perto tente achar o caminho..."
+      portuguese: "Ol\xE1! O que fazes nesta floresta sombria?"
       english: Hello, World!
       spanish: Hola, Mundo!
-  - actorName: 
-    profile: {fileID: 0}
+  - actorName: Leandro
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
     sentence:
-      portuguese: Ah, cuidado com os ossudos!
+      portuguese: "Estou em busca de uma forma de resolver a maldi\xE7\xE3o que assola
+        o vilarejo de onde venho..."
+      english: Hello, guys!
+      spanish: Hola, chicos!
+  - actorName: "Jo\xE3o"
+    profile: {fileID: 21300000, guid: 861ced9cb4f5abe43a3f1d8d420db4fc, type: 3}
+    sentence:
+      portuguese: "Entendi... j\xE1 faz um tempo que estamos sofrendo com essa maldi\xE7\xE3o..."
+      english: Hello, guys!
+      spanish: Hola, chicos!
+  - actorName: Leandro
+    profile: {fileID: 21300000, guid: 58991340b65fdde4e929aea8efeda5a1, type: 3}
+    sentence:
+      portuguese: "O que voc\xEA acha que eu posso fazer para acabar com isso?"
+      english: Hello, guys!
+      spanish: Hola, chicos!
+  - actorName: "Jo\xE3o"
+    profile: {fileID: 21300000, guid: 861ced9cb4f5abe43a3f1d8d420db4fc, type: 3}
+    sentence:
+      portuguese: "Reza a lenda que h\xE1 um toten perdido aqui na floresta, que
+        quando encontrado, teria a capacidade de acabar com a maldi\xE7\xE3o..."
+      english: Hello, guys!
+      spanish: Hola, chicos!
+  - actorName: "Jo\xE3o"
+    profile: {fileID: 21300000, guid: 861ced9cb4f5abe43a3f1d8d420db4fc, type: 3}
+    sentence:
+      portuguese: "Mas isso s\xE3o s\xF3 lendas, se eu fosse voc\xEA, n\xE3o acreditaria
+        nela."
+      english: Hello, guys!
+      spanish: Hola, chicos!
+  - actorName: "Jo\xE3o"
+    profile: {fileID: 21300000, guid: 861ced9cb4f5abe43a3f1d8d420db4fc, type: 3}
+    sentence:
+      portuguese: "Tome bastante cuidado, a floresta est\xE1 cheia Ossudos..."
       english: Hello, guys!
       spanish: Hola, chicos!

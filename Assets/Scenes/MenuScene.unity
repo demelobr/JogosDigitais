@@ -1722,7 +1722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc83ac62e0601a49aa4f5736b0686f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: "Introdu\xE7\xE3o"
+  sceneName: Fase 1
   painelMenuInicial: {fileID: 1773372079}
   painelOpcoes: {fileID: 1749918816}
 --- !u!4 &1746480083
