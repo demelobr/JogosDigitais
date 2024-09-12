@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c112f059b03da424584991dbe2437820, type: 3}
   m_Name: NPC4 Colheita
   m_EditorClassIdentifier: 
-  actor: {fileID: 0}
+  actor: {fileID: 7770197532357676207, guid: fd498e5869524584bbf2f0c2f909f02c, type: 3}
   speakerSprite: {fileID: 21300000, guid: e5ee1afbf46010e4a849e359195e314f, type: 3}
   sentence: 
   dialogues:
