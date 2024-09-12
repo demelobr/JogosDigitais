@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c112f059b03da424584991dbe2437820, type: 3}
+  m_Name: NPC4 Colheita
+  m_EditorClassIdentifier: 
+  actor: {fileID: 0}
+  speakerSprite: {fileID: 21300000, guid: e5ee1afbf46010e4a849e359195e314f, type: 3}
+  sentence: 
+  dialogues:
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "Ah, finalmente algu\xE9m disposto a ajudar na colheita!"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "A terra aqui \xE9 f\xE9rtil, mas d\xE1 trabalho, sabe? Pra come\xE7ar,
+        voc\xEA vai precisar de \xE1gua."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: " V\xE1 at\xE9 o lago ali embaixo. Mas, cuidado, voc\xEA s\xF3
+        conseguir\xE1 coletar \xE1gua na parte baixa do lago."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "Ah, finalmente algu\xE9m disposto a ajudar na colheita!"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "Chegando l\xE1, pressione a tecla E pra encher seu regador."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "Depois, volte pra essas terras, cave um buraco com as m\xE3os
+        e regue at\xE9 que a colheita cres\xE7a."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "Ah, uma coisa importante: quando estiver com o regador cheio,
+        use o bot\xE3o esquerdo do mouse pra regar o solo. Vai aparecer no seu HUD
+        o quanto de \xE1gua voc\xEA est\xE1 carregando."
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "Se quiser pescar, \xE9 s\xF3 ir na parte alta do lago. Mas aten\xE7\xE3o,
+        os peixes s\xF3 ficam na parte mais funda, ent\xE3o ali n\xE3o d\xE1 pra
+        pegar \xE1gua, entendeu?"
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: "E, se for pegar madeira, os ossudos n\xE3o v\xE3o te dar sossego.
+        Eles ficam nas florestas ao redor, prontos pra atacar. "
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 0}
+    sentence:
+      portuguese: Se cuide!
+      english: 
+      spanish: 
