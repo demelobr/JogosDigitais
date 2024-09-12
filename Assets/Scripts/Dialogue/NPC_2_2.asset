@@ -19,6 +19,6 @@ MonoBehaviour:
   - actorName: 
     profile: {fileID: 0}
     sentence:
-      portuguese: Teste
+      portuguese: "Agora voc\xEA est\xE1 pronto para entrar na vila! Vamos l\xE1!"
       english: Hello
       spanish: Hola
